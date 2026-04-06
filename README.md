@@ -6,17 +6,6 @@ Projekt implementuje základní datovou jednotku (PDU) a ethernetový rámec (Et
 
 ---
 
-## Struktura projektu
-
-```
-src/
- ├── pdu.py
- ├── ethframe.py
- └── main.py
-```
-
----
-
 ## Funkce
 
 * abstraktní třída PDU
@@ -32,14 +21,6 @@ src/
 
 * Python 3.x
 * žádné externí knihovny
-
----
-
-## Spuštění
-
-```bash
-python src/main.py
-```
 
 ---
 
@@ -69,9 +50,3 @@ print("Valid after corruption:", frame.is_valid())
 * každá změna dat přepočítá FCS
 * `is_valid()` porovnává uložený a aktuální FCS
 * rozdíl znamená poškození dat
-
----
-
-## Autor
-
-Student projekt zaměřený na základy OOP v Pythonu.
